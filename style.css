@@ -1,0 +1,200 @@
+/* inter-regular - latin */ 
+/* from: https://google-webfonts-helper.herokuapp.com/fonts/inter?subsets=latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v12-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Inter'),
+         url('../fonts/inter-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/inter-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/inter-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/inter-v12-latin-regular.svg#Inter') format('svg'); /* Legacy iOS */
+  }
+
+/* body {
+    font-family: 'Inter';
+    background-color: "FFFFFF";
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Inter';
+}
+
+h3 {
+    padding-top: 2rem;
+} */
+
+.card {
+    color: #092C11;
+    background-color: rgba(143,188,143,0.5);
+    background-color: rgb(192,212,148);
+    border-radius: 15px;  
+    border: 0px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+    margin-bottom: 2rem;
+} 
+.btn {
+
+
+    color: #FFFFFF;
+
+  
+    background-color: #092C11
+    /* background-color: rgb(192,212,148); */
+  
+    }
+    .linkbtn:hover {
+        background-color: rgba(143,188,143,0.5);
+        /* background-color:rgba(143,188,143,0.5); */
+        transition: 0.7s;
+        /* margin: 50%; */
+    }    
+.linkbtn {
+    background-color: #FFFFFF;
+    color: #092C11;
+}
+
+.checked {
+    color: gray;
+  }
+
+#activityheader {display:flex; flex-flow:row wrap;}
+
+.pfp {
+    margin: 1rem;
+}
+
+.activitycard{
+    background-color: #c0d494;
+}
+.friendstext {
+    margin: 1 rem;
+    line-height: 25%;
+}
+
+.alignleft {
+width:77%;
+text-align:left;
+}
+
+.alignright {
+width:20%;
+text-align:right;
+}
+
+.leftAlignedImage {
+    float: left;
+    margin-right: 10px;
+}
+
+.scroll {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+    .responsive-font {
+      font-size: calc(0.5em + 1vmin);
+    }
+  }
+  /* If the screen size is smaller than 1200px, set the font-size to 80px */
+  @media (max-width: 1199.98px) {
+    .responsive-font {
+      font-size: calc(0.5em + 1vmin);
+    }
+  }
+
+
+
+  /* /* Responsive columns - one column layout (vertical) on small screens 
+  from https://www.w3schools.com/howto/howto_css_column_cards.asp */
+/* @media screen and (max-width: 600px) {
+    .col {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+} */ 
+@media screen and (max-width:120px) {
+    img {
+        width:100%;
+    }
+    .container {
+        max-width:100%;
+        width: 100%;
+    }
+    .col-sm-2{
+        width:100%;
+        float:left;
+        margin:0;
+    }
+    }
+
+
+
+
+
+
+@media (min-width:1200px) {
+    :root {
+        --cardWidth: 22%;
+        --cardHeight: 60%;
+        --cardMargin: 1.5%;
+      }
+}
+
+@media (max-width:1199.98px) {
+        :root {
+        --cardWidth: 45%;
+        --cardHeight: 60%;
+        --cardMargin: 2%;
+      } 
+}
+  
+
+
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+      h1 {
+        color: #092C11;
+
+      }
+      .main-section {
+        display: flex;
+        justify-content: flex-center;
+        flex-wrap: wrap;
+      }
+      .shelfcard {
+        width: var(--cardWidth);
+        height: var(--cardHeight);
+        margin: var(--cardMargin);
+        border: 0px;
+        border-radius: 15px;  
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+
+        background: rgb(192,212,148);
+        /* box-sizing: border-box; */
+        color: #092C11;
+      /* margin-bottom: 2rem; */
+
+      }
+      .img-box {
+        display: flex;
+        cursor: default;
+        position: relative;
+        height: 100%;
+        margin-bottom: 3px;
+    }
+
+    .responsive-but {
+        font-size: 100%;
+    }

@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <title>goodreads</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #092C11;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">good<b>reads</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">My Books</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Browse
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Community
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search for books" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit" style="margin-right: 2rem">Search</button>
+        </form>
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="margin-right: 2rem">Sign In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="margin-right: 2rem">Join</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</body>
+
+<!-- <div class="d-flex flex-row justify-content-left align-items-center"> -->
+<div class="container" style="padding-top: 3rem">
+  <div class="row">
+    <div class="col-sm-1 col-md-3 col-lg-2 align-self-start">
+      <img src="images/pfp.jpeg" alt="profile picture of shizuku" style="width: 10rem; height: 10rem">
+      <br>
+      <br>
+
+    </div>
+    <div class="col-md-7 align-self-center">
+      <!-- NAME HEADER -->
+      <h1>Shizuku Tsukishima</h1>
+      <!-- BIO NAVI BUTTONS -->
+
+        <div class="btn-group">
+          <button class="btn btn-secondary btn-sm" type="button">
+            Add Friend
+          </button>
+          <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          </button>
+          <div class="dropdown-menu">
+            Text
+          </div>
+        </div>
+        </div>
+        </div>
+        <br>
+  <div class="row">
+
+<br>
+<br>
+      <!-- </div> -->
+      <div class="col 12">
+      <button type="button" class="btn" style="margin-left: .5rem; margin-bottom: 0rem; background-color:rgb(192,212,148); color:#092C11">ABOUT</button>
+
+      <a class="linkbtn" href="#" style="margin-left: 2rem; color:#092C11; text-decoration: none">FAVORITES</a>
+
+      <a class="linkbtn" href="#" style="margin-left: 2rem; color:#092C11; text-decoration: none">QUOTES</a>
+
+      </div>
+      </div>
+      
+
+      <!-- BIO CARD -->
+  <div class="row ">
+
+      <div class="col-md-9" style="margin-bottom: 1rem;">
+        <div class="card h-100" >
+          <div class="card-body" class="responsive-font">
+            <p class="responsive-font" style="margin-bottom: 0rem;">I’m an aspiring writer from Tokyo, Japan. I like reading fantasy
+            and my favorite author is Aoi Hiiragi. I hope you enjoy my reviews and bookshelves!
+           
+            </p>
+            <!-- <p class="responsive-font" style="align-items: flex-end;">1, 915 ratings (4.31 avg) |
+              1,942 reviews |
+              #57 best reviewers</p> -->
+        </div>
+        <div class="card-footer text-muted responsive-font">
+          1, 915 ratings (4.31 avg) |
+              1,942 reviews |
+              #57 best reviewers
+        </div>
+        </div>
+       
+      </div>
+
+    <!-- <div class="col-md-3 align-self-center card h-100 text-center"> -->
+          <!-- <div class="card-body">  -->
+            <div class="col-md-3" style="margin-bottom: 1rem;">
+              <div class="card h-100 text-center">
+                <div class="card-body h-100 " class="responsive-font" >
+                  <img src="images/woth.jpeg" alt="cover of Whisper of the Heart" style="width: 7rem; height: 10.5rem">
+                  <br>
+                  <p class="responsive-font"><b>Currently reading... </b>
+                    <br>
+                    Whisper of the Heart
+                  </p>
+                </div>
+              </div>
+        </div> 
+    </div>
+  </div>
+
+
+
+  
+<div class="container flex-wrap" style="padding-top: 3rem">
+  <!-- <div class="row"> -->
+    <!-- <div class="col-lg-12 align-self-start"> -->
+          <h2 style="text-align: left;  display: inline-block;">Shizuku's Bookshelves</h2>
+    <a href="#" style="color:#092C11; text-decoration: none">see all</a>
+    <section class="main-section">
+      <div class="shelfcard text-center">
+        <img class="img-fluid" src="images/toread.png" alt="collage of to read covers" style="width: 60%; height: 60%; margin-top: 2rem;">
+        <br>
+        <br>
+        <h5 style="margin-bottom: 2rem;"><b>To Read</b></h5>
+    
+      </div>
+      <div class="shelfcard text-center">
+        <img class="img-fluid" src="images/viet.png" alt="collage of to read covers" style="width: 60%; height: 60%; margin-top: 2rem;">
+    
+        <br>
+        <br>
+        <h5 style="margin-bottom: 2rem;"><b>Viet Authors</b></h5>
+      </div>
+      <div class="shelfcard text-center">
+        <img class="img-fluid" src="images/nonfiction.png" alt="collage of to read covers" style="width: 60%; height: 60%; margin-top: 2rem;">
+    
+        <br>
+        <br>
+        <h5 style="margin-bottom: 2rem;"><b>Nonfiction</b></h5>
+      </div>
+      
+      <div class="shelfcard text-center">
+        <img class="img-fluid" src="images/fantasy.png" alt="collage of to read covers" style="width: 60%; height: 60%; margin-top: 2rem;">
+    
+        <br>
+        <br>
+        <h5 style="margin-bottom: 2rem;"><b>Fantasy Favs</b></h5>
+      </div>
+    </section>  
+    <!-- </div> -->
+    <!-- </div> -->
+</div>
+
+    <!-- </div>
+    <div class="col-sm-3 align-self-start" style="text-align: center">
+      <div class="card text-center">
+        <div class="card-body">
+          <img class="img-fluid" src="images/toread.png" alt="collage of to read covers" style="width: 7rem; height: 10.5rem">
+          <br>
+          <br>
+          <h5 ><b>To Read</b></h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3 align-self-start" style="text-align: center">
+      <div class="card text-center">
+        <div class="card-body">
+          <img src="images/viet.png" alt="cover of Whisper of the Heart" style="width: 7rem; height: 10.5rem">
+          <br>
+          <br>
+          <h5><b>Viet Authors</b></h5>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-3 align-self-start" style="text-align: center">
+      <div class="card text-center">
+        <div class="card-body">
+          <img src="images/nonfiction.png" alt="cover of Whisper of the Heart" style="width: 7rem; height: 10.5rem">
+          <br>
+          <br>
+          <h5><b>Nonfiction</b></h5>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-3 align-self-start" style="text-align: center">
+      <div class="card text-center">
+        <div class="card-body">
+          <img src="images/fantasy.png" alt="cover of Whisper of the Heart" style="width: 7rem; height: 10.5rem">
+          <br>
+          <br>
+          <h5><b>Fantasy Favs</b></h5>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="col-sm-2 align-self-start" style="text-align: center">
+      <div class="card text-center">
+        <div class="card-body">
+          <img src="images/2022.png" alt="cover of 2021 favorites" style="width: 7rem; height: 10.5rem">
+          <br>
+          <br>
+          <h5><b>2021 Favs</b></h5>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="col-sm-2 align-self-start" style="text-align: center">
+      <div class="card text-center">
+        <div class="card-body">
+          <img src="images/2021.png" alt="cover of Whisper of the Heart" style="width: 7rem; height: 10.5rem">
+          <br>
+          <br>
+          <h5><b>Reread</b></h5>
+      </div>
+    </div> -->
+
+  <!-- </div> -->
+<!-- </div> -->
+
+
+ 
+
+
+<div class="container" style="padding-top: 3rem">
+  <div class="row">
+
+    <div class="col-lg-9 align-self-start" >
+    <h2>Recent Activity</h2>
+    <br>
+    
+      <div class="card scroll">
+        <div class="card-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <div class="card h-100" style="background-color: #a0bc6c;">
+                  <div class="card-header text muted" align="left">
+                    <div id="activityheader">
+                      <p class="alignleft responsive-font">Shizuku <b>commented</b> on <b>Shiro’s review</b> of <i>Whisper of the
+                        Heart</i>.</p>
+                      <p class="alignright responsive-font">1 hour ago</p>
+                    
+                    </div>
+                  </div>
+
+
+                    <div class="card-body">
+                      <div class="container">
+                        <div class="row justify-content-start">
+                          <div class="col-lg-2 col-sm-3 text center">
+                            <img src="images/woth.jpeg" class="img-fluid" alt="cover of Whisper of the Heart"
+                            style="width: 100%; height: 80%; margin-bottom: 1rem;">
+                              <div class="btn-group">
+                                <button class="btn btn-secondary btn-sm" type="button">
+                                  Bookmark
+                                </button>
+                                <button type="button"
+                                  class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+                                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                </button>
+                                <div class="dropdown-menu">
+                                  Text
+                                </div>
+                              </div>
+                
+                          </div>
+                          <div class="col-lg-10 col-sm-9">
+                            <p class="responsive-font" align="left">“The things I wanted to write don't fit together! The second half is
+                              ridiculous! I know this myself!”</p>
+                          </div>
+                          <div class="col-4 align-self-end" align="right">
+
+
+                          </div>
+                        </div>
+                        
+                    </div>
+
+                  </div>
+          
+                </div>
+                
+              </div>
+
+            </div>
+          </div>
+        </div>
+          <div class="card-body">
+            <div class="container-fluid" style="padding-top: 50px;">
+              <div class="row">
+                <div class="col">
+                  <div class="card  h-100" style="background-color: #a0bc6c;">
+                    <div class="card-header text muted" align="left">
+                      <div id="activityheader">
+                        <p class="alignleft responsive-font" >Shizuku <b>rated</b> <i>Whisper of the
+                          Heart</i>.</p>
+                        <p class="alignright responsive-font">3 hours ago</p>
+                      </div>
+                    </div>
+  
+                      <div class="card-body">
+                        <div class="container">
+                          <div class="row justify-content-start">
+                            <div class="col-lg-2 col-sm-3 text-center">
+                              <!-- <img src="images/woth.jpeg" alt="cover of Whisper of the Heart"
+                                style="margin-bottom:1rem; width: 7rem; height: 10.5rem"> -->
+                                <img src="images/woth.jpeg" class="img-fluid" alt="cover of Whisper of the Heart"
+                                style="width: 100%; height: 80%; margin-bottom: 1rem;">
+                                <div class="btn-group">
+                                  <button class="btn btn-secondary btn-sm" type="button">
+                                    Bookmark
+                                  </button>
+                                  <button type="button"
+                                    class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  </button>
+                                  <div class="dropdown-menu">
+                                    Text
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-10 col-sm-9 ">
+
+                              <link rel="stylesheet"
+                              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            </div>
+                       
+                          </div>
+                        </div>
+                      </div>
+  
+                   
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="container-fluid" style="padding-top: 50px;">
+              <div class="row">
+                <div class="col">
+                  <div class="card  h-100" style="background-color: #a0bc6c;">
+                    <div class="card-header text muted" align="left">
+                      <div id="activityheader">
+                        <p class="alignleft responsive-font">Shizuku <b>wants to read</b> <i>If You Could See the Sun</i>.</p>
+                        <p class="alignright responsive-font">10/15/22</p>
+                      </div>
+                    </div>
+  
+  
+  
+                      <div class="card-body">
+                        <div class="container">
+                          <div class="row justify-content-start">
+                            <div class="col-lg-2 col-sm-3 text-center">
+
+                              <img class="img-fluid" src="images/iycsts.png" alt="cover of If You Could See the Sun"
+                              style="width: 100%; height: 80%; margin-bottom: 1rem;">
+                              <br>
+                                <div class="btn-group">
+                                  <button class="btn btn-secondary btn-sm" type="button" >
+                                    Bookmark
+                                  </button>
+                                  <button type="button"
+                                    class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  </button>
+                                  <div class="dropdown-menu">
+                                    Text
+                                  </div>
+                                </div>
+                            </div>
+                          <div class="col-lg-10 col-sm-9">
+
+                                <p class="responsive-font"><b>If You Could See the Sun by Ann Liang</b></p>
+                                <p class="responsive-font" align="left">Alice Sun has always felt invisible at her elite Beijing international boarding school, where she’s the only scholarship student among China’s most rich and influential teens. But then she starts uncontrollably turning invisible—actually invisible. ...<a href="#" style="color:#092C11; text-decoration: none"><i>more</i></a></p>
+                              </div>
+                            <div class="col-4 align-self-end" align="right">
+  
+                              <!-- <div class="btn-group">
+                                <button class="btn btn-secondary btn-sm" type="button">
+                                  Want to read
+                                </button>
+                                <button type="button"
+                                  class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+                                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                </button>
+                                <div class="dropdown-menu">
+                                  Text
+                                </div>
+                              </div>
+                              <br>
+                              <br>
+   -->
+                              <!-- <h6>Rate this book</h6>
+                              <link rel="stylesheet"
+                                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span> -->
+                            </div>
+                          <!-- </div> -->
+                        </div>
+                      </div>
+  
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+
+      
+    </div>
+
+
+    <div class="col-lg-3 align-self-start" style="text-align: center">
+      <!-- <h5 style="text-align: center;"><b>FRIENDS</b> | GROUPS</h3> -->
+        <button type="button" class="btn responsive-font" style="background-color:rgb(192,212,148); color:#092C11">FRIENDS</button>
+        <a class="responsive-font" href="dummy" style="margin-left: 1rem; color:#092C11; text-decoration: none">GROUPS</a>
+        <br>
+        <br>
+
+        
+        <div class="card text-center scroll">
+            <div class="row text-center">
+              <div class="col-md-6">
+                <img class="pfp" src="images/transparent.svg" alt="Seji profile picture" style="width: 5 rem; height: 5rem" >
+              </div>
+              <div class="col-md-5 align-self-center">
+                <h6 class="responsive-font"><b>Seji</b></h6>
+                <p class="friendstext responsive-font" >1,995 books</p>
+                <p class="friendstext responsive-font">171 reviews</p>
+              </div>
+              <div class="col-md-6">
+                <img class="pfp" src="images/yuko.svg" alt="Yuko profile picture" style="width: 5 rem; height: 5rem" >
+              </div>
+              <div class="col-md-5 align-self-center">
+                <h6 class="responsive-font"><b>Yuko</b></h6>
+                <p class="friendstext responsive-font" >270 books</p>
+                <p class="friendstext responsive-font">12 reviews</p>
+              </div>
+
+              <div class="col-md-6">
+                <img class="pfp" src="images/baron.svg" alt="Baron profile picture" style="width: 5 rem; height: 5rem" >
+              </div>
+              <div class="col-md-5 align-self-center">
+                <h6 class="responsive-font"><b>Baron</b></h6>
+                <p class="friendstext responsive-font">500 books</p>
+                <p class="friendstext responsive-font" >499 reviews</p>
+              </div>
+
+              <div class="col-md-6">
+                <img class="pfp" src="images/moon.svg" alt="Moon profile picture" style="width: 5 rem; height: 5rem" >
+              </div>
+              <div class="col-md-5 align-self-center">
+                <h6 class="responsive-font"><b>Moon</b></h6>
+
+                <p class="friendstext responsive-font" >2 books</p>
+                <p class="friendstext responsive-font">0 reviews</p>
+              </div>
+
+              <div class="col-md-6">
+                <img class="pfp" src="images/shiro.svg" alt="Shiro profile picture" style="width: 5 rem; height: 5rem" >
+              </div>
+              <div class="col-md-5 align-self-center">
+                <h6 class="responsive-font"><b>Shiro</b></h6>
+
+                <p class="friendstext responsive-font">2,492 books</p>
+                <p class="friendstext responsive-font">1,034 reviews</p>
+              </div>
+
+              <div class="col-md-6">
+                <img class="pfp" src="images/sophie.svg" alt="Sophie profile picture" style="width: 5 rem; height: 5rem" >
+              </div>
+              <div class="col-md-5 align-self-center">
+                <h6 class="responsive-font"><b>Sophie</b></h6>
+
+                <p class="friendstext responsive-font">492 books</p>
+                <p class="friendstext responsive-font">30 reviews</p>
+              </div>
+
+              <div class="col-md-6">
+                <img class="pfp" src="images/howl.svg" alt="Howl profile picture" style="width: 5 rem; height: 5rem" >
+              </div>
+              <div class="col-md-5 align-self-center">
+                <h6 class="responsive-font"><b>Howl</b></h6>
+
+                <p class="friendstext responsive-font">30 books</p>
+                <p class="friendstext responsive-font">104 reviews</p>
+              </div>
+
+              <div class="col-md-6">
+                <img class="pfp" src="images/haku.svg" alt="Haku profile picture" style="width: 5 rem; height: 5rem" >
+              </div>
+              <div class="col-md-5 align-self-center">
+                <h6 class="responsive-font"><b>Haku</b></h6>
+
+                <p class="friendstext responsive-font">152 books</p>
+                <p class="friendstext responsive-font">12 reviews</p>
+              </div>
+
+              <div class="col-md-6">
+                <img class="pfp" src="images/nausicaa.svg" alt="Nausicaa profile picture" style="width: 5 rem; height: 5rem" >
+              </div>
+              <div class="col-md-5 align-self-center">
+                <h6 class="responsive-font"><b>Nausicaa</b></h6>
+
+                <p class="friendstext responsive-font">1,002 books</p>
+                <p class="friendstext responsive-font">872 reviews</p>
+              </div>
+          </div>
+          </div>
+
+        </div>
+    </div>
+  </div>
+</div>
+
+</html>
+
+
+
+
+
+
+
